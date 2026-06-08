@@ -155,51 +155,57 @@
 // console.log(result);
 
 // array filter it will give us number without negative number if you need and positive if you need and also it can be used for comparison
-const mark = [-40, 30, 20,70,80,80,90,40];
+// const mark = [-40, 30, 20,70,80,80,90,40];
 
-const combination = mark.filter(function(ff) {
-    return ff < 50; 
-});
+// const combination = mark.filter(function(ff) {
+//     return ff < 50; 
+// });
 //?
 //  it will execute the mark with word improved because it add new and create new array
-console.log(combination); 
-const improved = mark.map(function(show){
-     return `${show} improved`
-})
-console.log(improved);
+// console.log(combination); 
+// const improved = mark.map(function(show){
+//      return `${show} improved`
+// })
+// console.log(improved);
 
-console.log(mark.join(' better').split());
+// console.log(mark.join(' better').split());
 
- mark.sort(function(a,b){
-    if(a>b)  return -1;
-    // if(a<b) return -1
-})
-console.log(mark);
+//  mark.sort(function(a,b){
+//     if(a>b)  return -1;
+//     // if(a<b) return -1
+// })
+// console.log(mark);
 
-const arr = [1,4,2,5,7];
-console.log(arr.sort((a,b)=>(a-b)));
-// console.log(arr.slice(0,-2,30));
-console.log(arr.splice(3,3));
+// const arr = [1,4,2,5,7];
+// console.log(arr.sort((a,b)=>(a-b)));
+// // console.log(arr.slice(0,-2,30));
+// console.log(arr.splice(3,3));
 
-const FirstName = "irene"
-console.log(FirstName.toLocaleUpperCase());
-console.log(FirstName.replaceAll('irene','shema'));
-console.log(FirstName.includes('i'));
-console.log(FirstName.indexOf('i'));
-console.log(FirstName.split());
-console.log([1,2,3,4].join('o').split());
+// const FirstName = "irene"
+// console.log(FirstName.toLocaleUpperCase());
+// console.log(FirstName.replaceAll('irene','shema'));gi
+// console.log(FirstName.includes('i'));
+// console.log(FirstName.indexOf('i'));
+// console.log(FirstName.split());
+// console.log([1,2,3,4].join('o').split());
+
+let marks = [2,4,5,3]
+let result = marks
+.join('irene')
+.split()
+.map(x => isNaN(x) ? x : Number(x)); 
+console.log(result);
 
 
-// error handle
-
-try{
-    gggg
-}catch (error){
-    console.log(error)
-}finally{
-    console.log('asdfghjkl');
+// // error handle
+// try{
+//     gggg
+// }catch (error){
+//     console.log(error)
+// }finally{
+//     console.log('akl');
     
-}
+// }
 
 
 
