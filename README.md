@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center">  
   <h1>⏳ Timer, Loops, Conversion & Arrays Guide 🚀</h1>
   <p>A structured cheat-sheet explaining JavaScript fundamentals, type mutations, and essential array manipulation methods.</p>
 
